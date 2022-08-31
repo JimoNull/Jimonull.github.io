@@ -1,6 +1,7 @@
 <template>
   <div>
     <myheader></myheader>
+    <cards></cards>
     <p v-if="msg.length > 0">
       {{msg}}
     </p>
@@ -14,10 +15,12 @@
 
 <script>
 import myheader from './components/myheader'
+import cards from './components/cards'
 
 export default {
   components: {
-    myheader
+    myheader,
+    cards
   },
   data () {
     return {
