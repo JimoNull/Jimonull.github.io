@@ -1,17 +1,17 @@
 <template>
   <div>
-    <header class="flex relative z-10 bg-blue-200">
+    <header class="flex relative z-10">
       <nav class="navbar">
         <div class="flex-1">
-          <router-link to="/" class="btn btn-ghost normal-case text-xl">
+          <router-link to="/" class="btn btn-ghost normal-case xl:text-3xl">
             <img class="w-12 rounded-full p-1" src="@/assets/img/jimonull.jpeg">
             Jimonull's Portfolio</router-link>
         </div>
         <div class="flex-none">
-          <ul class="sm:flex hidden menu menu-horizontal p-0">
-            <li><router-link to="/about">About</router-link></li>
-            <li><router-link to="/works">Works</router-link></li>
-            <li><router-link to="/skills">Skills</router-link></li>
+          <ul class="sm:flex hidden menu menu-horizontal p-0 xl:text-2xl">
+            <li><router-link to="/about" class="xl:mx-5">About</router-link></li>
+            <li><router-link to="/works" class="xl:mx-5">Works</router-link></li>
+            <li><router-link to="/skills" class="xl:mx-5">Skills</router-link></li>
           </ul>
         </div>
 
