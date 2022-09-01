@@ -1,9 +1,9 @@
 <template>
   <div>
     <p>
-      ここはページ１です。
+      ここはaboutです。
     </p>
-    <router-link to="/page2">Go to page2</router-link>
+    <router-link to="/">Go to page1</router-link>
   </div>
 </template>
 
