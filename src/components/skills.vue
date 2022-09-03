@@ -8,7 +8,7 @@
 
         <p class="text-center m-2">
           <span class="material-icons text-6xl">
-            info
+            settings
           </span>
         </p>
         <div class="overflow-x-auto max-w-3xl m-auto p-5">
