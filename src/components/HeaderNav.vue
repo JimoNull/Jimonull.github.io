@@ -9,7 +9,7 @@
         </div>
         <div class="flex-none">
           <ul class="sm:flex hidden menu menu-horizontal p-0 xl:text-2xl">
-            <li><router-link to="/about" class="xl:mx-5">About</router-link></li>
+            <li><router-link to="/" class="xl:mx-5">About</router-link></li>
             <li><router-link to="/works" class="xl:mx-5">Works</router-link></li>
             <li><router-link to="/skills" class="xl:mx-5">Skills</router-link></li>
           </ul>
