@@ -1,8 +1,10 @@
 <template>
+<transition appear>
   <div>
-    <HeaderNav />
+      <HeaderNav />
     <router-view />
   </div>
+  </transition>
 </template>
 
 <script>
@@ -27,4 +29,28 @@
 
 <style>
   @import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+  /* アニメーション中のスタイル */
+  .v-leave-active,
+  .v-enter-active {
+    transition: opacity 1s;
+  }
+
+  /* 表示アニメーション */
+  .v-enter {
+    opacity: 0;
+  }
+
+  .v-enter-to {
+    opacity: 1;
+  }
+
+  /* 非表示アニメーション */
+  .v-leave {
+    opacity: 1;
+  }
+
+  .v-leave-to {
+    opacity: 0;
+  }
 </style>

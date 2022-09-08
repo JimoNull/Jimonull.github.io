@@ -1,7 +1,7 @@
 <template>
     <div>
-        <div class="w-full h-auto min-h-[50vh] bg-cover bg-[url('@/assets/img/headerbg.png')]"></div>
         <main>
+            <div class="w-full h-auto min-h-[50vh] bg-cover bg-[url('@/assets/img/headerbg.png')]"></div>
             <div class="text-center">
                 <img class="w-36 rounded-full -mt-20 mx-auto" src="@/assets/img/jimonull.png">
                 <h1 class="text-3xl font-bold my-3">
@@ -14,8 +14,10 @@
             </div>
             <div class="text-center">
                 <div class="flex justify-center">
-                    <a href="https://github.com/JimoNull"><img class="w-20 rounded-full p-3" src="@/assets/img/github.png"></a>
-                    <a href="https://qiita.com/Jimonull"><img class="w-20 rounded-full p-3" src="@/assets/img/qiita.png"></a>
+                    <a href="https://github.com/JimoNull"><img class="w-20 rounded-full p-3"
+                            src="@/assets/img/github.png"></a>
+                    <a href="https://qiita.com/Jimonull"><img class="w-20 rounded-full p-3"
+                            src="@/assets/img/qiita.png"></a>
                 </div>
             </div>
         </main>
